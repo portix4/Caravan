@@ -3,3 +3,8 @@
   top: 0;
   transition: transform 1s ease-out;
 }
+
+/* .navbar-container {
+  display: flex;
+  flex-direction: row;
+} */
