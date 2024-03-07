@@ -1,6 +1,5 @@
 .rates-container {
   position: relative;
   height: 100vh;
-  background-color: red !important;
-  color: black !important;
+  text-align: center;
 }

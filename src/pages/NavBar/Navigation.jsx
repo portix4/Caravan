@@ -5,7 +5,7 @@ import './Navigation.css'
 
 const Navigation = () => {
   return (
-    <Navbar className='navbar' collapseOnSelect bg='body-tertiary'>
+    <Navbar collapseOnSelect>
       <Container className='navbar-container'>
         <Navbar.Brand as={Link} to='/'>
           React-Bootstrap
