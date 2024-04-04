@@ -1,5 +1,12 @@
 .rates-container {
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
+}
+
+@media (max-width: 992px) {
+  .card {
+    max-width: 26rem;
+    margin: 20px auto;
+  }
 }

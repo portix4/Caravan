@@ -6,21 +6,21 @@ const Rates = () => {
   const RATES = [
     {
       name: 'Temporada Alta',
-      description: 'Fechas de verano (Julio - Agosto) y puentes',
+      description: 'Verano (Julio - Agosto) y puentes',
       color: 'rgb(255, 0, 0)',
       rate: '160€'
     },
     {
       name: 'Temporada Media',
       description: 'Junio - Septiembre y festivos',
-      color: 'rgb(255, 0, 0)',
+      color: 'rgb(255, 187, 0)',
       min: '7 días',
       rate: '130€'
     },
     {
       name: 'Temporada Baja',
       description: 'Resto del año',
-      color: 'rgb(255, 0, 0)',
+      color: 'rgb(0, 255, 0)',
       min: '3 días',
       rate: '110€'
     }
@@ -39,7 +39,7 @@ const Rates = () => {
         <Row className='rates-card-row'>
           {RATES.map(e => {
             return (
-              <Col key={e.id} md={4} className='rate-card'>
+              <Col key={e.id} lg={4} className='rate-card'>
                 <RatesCard {...e} />
               </Col>
             )
