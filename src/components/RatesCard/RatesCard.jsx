@@ -1,4 +1,5 @@
 import { Container, Card } from 'react-bootstrap'
+import './RatesCard.css'
 
 const RatesCard = ({ name, description, color, rate }) => {
   return (

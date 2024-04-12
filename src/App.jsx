@@ -4,6 +4,7 @@ import Navigation from './pages/NavBar/Navigation'
 import { Router } from 'react-router-dom'
 import Rates from './pages/Rates/Rates'
 import Rating from './pages/Rating/Rating'
+import FormPage from './pages/Form/FormPage'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navigation />
       <Rates />
       <Rating />
+      <FormPage />
     </div>
   )
 }
